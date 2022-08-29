@@ -24,4 +24,9 @@ class ExampleUnitTest {
     fun addition_anotherFailingTest() {
         assertEquals(4, 2 + 3)
     }
+
+    @Test
+    fun addition_oneMoreFailingTest() {
+        assertEquals(4, 2 + 3)
+    }
 }
