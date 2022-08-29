@@ -21,6 +21,6 @@ class HelloWorldEspressoTest {
 
     @Test
     fun helloWorldIsVisible() {
-        onView(withText("Hello World!")).check(matches(isDisplayed()))
+        onView(withText("Hello There!")).check(matches(isDisplayed()))
     }
 }
